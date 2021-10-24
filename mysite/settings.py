@@ -141,6 +141,7 @@ cloudinary.config(
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MAX_UPLOAD_SIZE = "1000"
 django_heroku.settings(locals())
